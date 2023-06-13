@@ -8,8 +8,13 @@ import seaborn as sns
 from lifelines import CoxPHFitter
 
 survival_data = pd.read_csv('../candidate_project/survival_data.csv')
-# minor EDA to check for obvious singularities
-survival_data.corr()
+
+# EDA
+sns.pairplot(survival_data, hue='E')
+plt.show()
+
+survival_data.describe()
+survival_data.isna().sum()
 
 # model fit
 cph = CoxPHFitter()
