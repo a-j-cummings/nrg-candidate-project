@@ -1,0 +1,10 @@
+1. The probability is 0.9608.
+2. On average a 10 unit increase in weight corresponds to a 7.87 unit increase 
+   in height after accounting for the effects of age, sex, and their interacton
+   (95% CI: 7.19, 8.56).
+3. A one unit increase in var1 is associated with a 25% increase in the expected
+   hazards (95% CI: 8%, 44%).
+   A one unit increase in var2 is associated with a 5% increase in the expected
+   hazards (95% CI: -11%, 24%).
+   A one unit increase in var3 is associated with a 24% increase in the expected
+   hazards (95% CI: 7%, 44%). 
